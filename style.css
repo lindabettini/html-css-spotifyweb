@@ -41,10 +41,11 @@ body {
 #side-bar nav a {
   color: grey;
   text-decoration: none;
+  display: inline-block;
+  padding: 10px;
 }
 
 #side-bar a svg.nav-btn {
-  color: grey;
   width: 30px;
   height: auto;
 }
