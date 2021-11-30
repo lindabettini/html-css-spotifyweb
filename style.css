@@ -63,7 +63,7 @@ body {
 
 .bottom-sidebar {
   width: 100%;
-  background-color: rgb(76, 0, 255);
+  padding-bottom: 5px;
 }
 
 a.download-btn {
