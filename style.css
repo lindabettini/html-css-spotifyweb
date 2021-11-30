@@ -12,6 +12,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .display-wrapper {
   height: calc(100vh - 80px);
   display: flex;
@@ -208,19 +212,22 @@ main {
 .card {
   margin: 5px;
   width: 220px;
-  background-color: green;
   text-align: center;
 }
 
 .card-cover {
   height: 220px;
   width: 220px;
-  background-color: hotpink;
+}
+
+.card-title {
+  margin: 5px auto;
 }
 
 .card-subtitle {
   color: grey;
   font-weight: 700;
+  margin: 5px auto;
 }
 
 /*** FOOTER  ***/
