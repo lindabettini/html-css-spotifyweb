@@ -24,6 +24,9 @@ body {
   flex-shrink: 0;
   width: 50px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #side-bar nav {
@@ -50,9 +53,22 @@ body {
   height: auto;
 }
 
+/* Bottom Side-bar  */
+
+.bottom-sidebar {
+  width: 100%;
+  background-color: rgb(76, 0, 255);
+}
+
+#side-bar a svg.profile {
+  width: 15px;
+  background-color: grey;
+  height: auto;
+}
+
 /********** RIGHT SIDE WRAPPER  ********/
 
-.right-side-wrapper {
+.rightside-wrapper {
   flex-basis: 100%;
   flex-shrink: 0;
   width: calc(100% - 50px);
