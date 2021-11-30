@@ -117,6 +117,7 @@ img {
 .rightside-wrapper {
   height: 100%;
   width: 100%;
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   background-color: rgb(20, 25, 34);
@@ -124,17 +125,11 @@ img {
 
 /*** HEADER  ***/
 
-header {
-  flex-basis: 150px;
-  flex-shrink: 0;
-  width: 100%;
-  padding-top: 70px;
-}
-
 /* Top Header  */
 
 #top-header {
-  height: 70px;
+  flex-basis: 70px;
+  flex-shrink: 0;
   width: calc(100% - 50px);
   background-color: rgba(0, 0, 0, 0.4);
   padding-right: 5px;
@@ -160,8 +155,9 @@ button.pill {
 
 /* Bottom Header  */
 
-#bottom-header {
-  height: 80px;
+#main-header {
+  flex-basis: 80px;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -198,6 +194,7 @@ main {
   background-color: rgb(20, 25, 34);
   padding: 10px;
   color: white;
+  overflow-y: auto;
 }
 
 /* Cards Section  */
