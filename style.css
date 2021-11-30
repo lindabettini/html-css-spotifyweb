@@ -30,6 +30,7 @@ body {
 
 .right-side-wrapper {
   flex-basis: 100%;
+  flex-shrink: 0;
   width: calc(100% - 50px);
   background-color: darkcyan;
   display: flex;
@@ -38,6 +39,7 @@ body {
 
 header {
   flex-basis: 100px;
+  flex-shrink: 0;
   width: 100%;
   background-color: darkblue;
 }
