@@ -137,11 +137,11 @@ header {
 
 button.pill {
   display: block;
-  height: 30px;
-  width: 150px;
+  height: 35px;
+  width: 190px;
   border: 1px solid white;
   background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 15px;
+  border-radius: 35px;
   color: white;
   cursor: pointer;
   font-size: 12px;
