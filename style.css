@@ -29,6 +29,7 @@ body {
   justify-content: space-between;
 }
 
+/* Nav - Generics rules  */
 #side-bar nav {
   width: 100%;
 }
@@ -41,10 +42,15 @@ body {
   text-align: center;
 }
 
-#side-bar nav a {
+#side-bar a {
   color: grey;
   text-decoration: none;
   display: inline-block;
+}
+
+/* TOP-Sidebar  */
+
+.top-sidebar a {
   padding: 10px;
 }
 
@@ -53,11 +59,27 @@ body {
   height: auto;
 }
 
-/* Bottom Side-bar  */
+/* BOTTOM-Sidebar  */
 
 .bottom-sidebar {
   width: 100%;
   background-color: rgb(76, 0, 255);
+}
+
+a.download-btn {
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+
+a svg.download {
+  height: auto;
+  width: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 a.prof-btn {
@@ -70,7 +92,7 @@ a.prof-btn {
   overflow: hidden;
 }
 
-#side-bar a .profile {
+a svg.profile {
   height: 25px;
   width: auto;
   position: absolute;
