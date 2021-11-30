@@ -121,18 +121,22 @@ header {
   flex-basis: 150px;
   flex-shrink: 0;
   width: 100%;
+  padding-top: 70px;
 }
 
 /* Top Header  */
 
 #top-header {
   height: 70px;
+  width: calc(100% - 50px);
   background-color: rgba(0, 0, 0, 0.4);
+  padding-right: 5px;
+  position: fixed;
+  top: 0;
+  left: 50px;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 5px;
 }
 
 button.pill {
@@ -185,7 +189,6 @@ main {
   flex-grow: 1;
   width: 100%;
   background-color: rgb(20, 25, 34);
-  overflow-y: auto;
   padding: 10px;
   color: white;
 }
