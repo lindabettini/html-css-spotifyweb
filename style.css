@@ -204,6 +204,7 @@ main {
 
 .card {
   margin: 5px;
+  width: 220px;
   background-color: green;
   text-align: center;
 }
