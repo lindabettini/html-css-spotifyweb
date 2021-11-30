@@ -7,17 +7,17 @@
 }
 
 body {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .display-wrapper {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-/* SIDE BAR  */
+/******** SIDE BAR  ********/
 
 #side-bar {
   flex-basis: 100%;
@@ -26,7 +26,7 @@ body {
   background-color: black;
 }
 
-/* RIGHT SIDE WRAPPER  */
+/********** RIGHT SIDE WRAPPER  ********/
 
 .right-side-wrapper {
   flex-basis: 100%;
@@ -37,26 +37,40 @@ body {
   flex-direction: column;
 }
 
+/*** HEADER  ***/
+
 header {
   flex-basis: 100px;
   flex-shrink: 0;
   width: 100%;
-  background-color: darkblue;
 }
+
+#top-header {
+  height: 60%;
+  background-color: darkgreen;
+}
+
+#bottom-header {
+  height: 40%;
+  background-color: darkkhaki;
+}
+
+/*** MAIN  ***/
 
 main {
   flex-grow: 1;
   width: 100%;
-  background-color: chartreuse;
+  background-color: rgb(20, 25, 34);
+  overflow-y: auto;
 }
 
-/* FOOTER  */
+/*** FOOTER  ***/
 
-#medie-player {
+#media-player {
   position: fixed;
   bottom: 0;
   right: 0;
-  height: 100px;
+  height: 80px;
   width: 100vw;
   background-color: aquamarine;
 }
