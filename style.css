@@ -118,7 +118,7 @@ body {
 /*** HEADER  ***/
 
 header {
-  flex-basis: 100px;
+  flex-basis: 150px;
   flex-shrink: 0;
   width: 100%;
 }
@@ -126,7 +126,7 @@ header {
 /* Top Header  */
 
 #top-header {
-  height: 50%;
+  height: 70px;
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: row;
@@ -150,23 +150,25 @@ button.pill {
 /* Bottom Header  */
 
 #bottom-header {
-  height: 50%;
+  height: 80px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: baseline;
   flex-wrap: wrap;
   margin-top: 5px;
   padding-right: 5px;
 }
 
-nav.item-genre {
+nav.item-genre ul {
+  text-align: center;
+  width: 100%;
   list-style-type: none;
-  margin-top: 5px;
 }
 
 nav.item-genre ul li {
   display: inline-block;
-  margin-top: 10px;
+  margin: 10px 0 20px 0;
 }
 
 nav.item-genre li a {
