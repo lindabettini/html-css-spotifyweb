@@ -1,3 +1,5 @@
+/* GENERICS  */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,21 +17,40 @@ body {
   flex-wrap: wrap;
 }
 
-.side-bar {
+/* SIDE BAR  */
+
+#side-bar {
   flex-basis: 100%;
   flex-shrink: 0;
   width: 50px;
   background-color: black;
 }
 
+/* RIGHT SIDE WRAPPER  */
+
 .right-side-wrapper {
   flex-basis: 100%;
-  flex-shrink: 0;
   width: calc(100% - 50px);
   background-color: darkcyan;
+  display: flex;
+  flex-direction: column;
 }
 
-footer {
+header {
+  flex-basis: 100px;
+  width: 100%;
+  background-color: darkblue;
+}
+
+main {
+  flex-grow: 1;
+  width: 100%;
+  background-color: chartreuse;
+}
+
+/* FOOTER  */
+
+#medie-player {
   position: fixed;
   bottom: 0;
   right: 0;
