@@ -1,6 +1,7 @@
 @media screen and (min-width: 576px) {
   #side-bar {
-    width: 200px;
+    flex-basis: 200px;
+    flex-shrink: 0;
   }
 
   #fixed-header {
@@ -33,7 +34,7 @@
   #logo-large .logo-spotify {
     width: 120px;
     height: auto;
-    margin: 10px;
+    margin-bottom: 10px;
   }
 
   #side-bar ul li {
@@ -41,6 +42,11 @@
   }
 
   span.nav-text {
+    display: inline-block;
+    position: static;
+  }
+
+  .top-sidebar #playlist {
     display: inline-block;
     position: static;
   }
