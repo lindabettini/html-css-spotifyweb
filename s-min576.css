@@ -3,14 +3,6 @@
     width: 200px;
   }
 
-  #fixed-header {
-    width: calc(100vw - 200px);
-  }
-
-  .display-wrapper {
-    padding-left: 200px;
-  }
-
   /***** Cards Section  *****/
   .card {
     width: 165px;
@@ -37,5 +29,10 @@
   #logo-large .logo-spotify {
     width: 150px;
     height: auto;
+    margin-bottom: 10px;
+  }
+
+  #side-bar ul li {
+    text-align: left;
   }
 }
