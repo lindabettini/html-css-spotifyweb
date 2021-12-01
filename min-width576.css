@@ -196,8 +196,10 @@ main {
   color: white;
 }
 
-main h1 {
-  margin: 0 15px;
+main h2 {
+  margin: 0 5px;
+  width: 100%;
+  display: block;
 }
 
 /* Cards Section  */
