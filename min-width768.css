@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+  #side-bar {
+    width: 200px;
+  }
+
+  #fixed-header {
+    width: calc(100vw - 200px);
+  }
+
+  .display-wrapper {
+    padding-left: 200px;
+}
