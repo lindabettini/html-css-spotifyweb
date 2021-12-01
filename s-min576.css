@@ -11,6 +11,7 @@
     padding-left: 200px;
   }
 
+  /***** Cards Section  *****/
   .card {
     width: 165px;
   }
@@ -18,5 +19,23 @@
   .card-cover {
     height: 165px;
     width: 165px;
+  }
+
+  /***** Side-bar  *****/
+
+  /* Icons */
+  .top-sidebar #logo-small {
+    display: none;
+    position: absolute;
+  }
+
+  .top-sidebar #logo-large {
+    display: inline-block;
+    position: static;
+  }
+
+  #logo-large .logo-spotify {
+    width: 150px;
+    height: auto;
   }
 }
