@@ -57,6 +57,7 @@
 
 /***** MEDIUM 768px  *****/
 @media screen and (min-width: 768px) {
+  /* Cards  */
   .card {
     max-width: 160px;
   }
@@ -64,6 +65,16 @@
   .card-cover {
     max-height: 160px;
     max-width: 160px;
+  }
+  /* Player  */
+  .play button {
+    padding: 0 5px;
+  }
+
+  .line-prog-bar {
+    flex-basis: 150px;
+    flex-shrink: 0;
+    background-color: grey;
   }
 }
 

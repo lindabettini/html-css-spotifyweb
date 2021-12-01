@@ -287,7 +287,6 @@ main {
 
 #on-air {
   flex-grow: 1;
-  background-color: coral;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -324,11 +323,10 @@ img.onair-cover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: chartreuse;
 }
 
 .play button {
-  font-size: 1.8em;
+  font-size: 20px;
 }
 
 /* Progress bar  */
@@ -361,7 +359,6 @@ img.onair-cover {
 
 #controls {
   flex-grow: 1;
-  background-color: cornflowerblue;
   display: flex;
   flex-direction: row;
   justify-content: center;
