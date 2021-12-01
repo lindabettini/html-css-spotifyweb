@@ -221,7 +221,7 @@ main {
   color: white;
 }
 
-/* Cards Section  */
+/* Cards Sections  */
 
 .cards {
   margin: 20px 0;
@@ -276,4 +276,29 @@ main {
   height: 70px;
   width: 100vw;
   background-color: #282828;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* On-Air  */
+
+#on-air {
+  flex-grow: 1;
+  background-color: coral;
+}
+
+/* Player  */
+
+#player {
+  flex-grow: 2;
+  background-color: chartreuse;
+}
+
+/* Controls  */
+
+#controls {
+  flex-grow: 1;
+  background-color: cornflowerblue;
 }
