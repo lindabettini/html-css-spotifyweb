@@ -230,7 +230,6 @@ main h2 {
 
 .cards {
   margin: 20px 0;
-  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -240,13 +239,13 @@ main h2 {
 
 .card {
   margin: 5px;
-  width: 220px;
+  width: 45%;
   text-align: center;
 }
 
 .card-cover {
-  height: 220px;
-  width: 220px;
+  width: 100%;
+  height: auto;
 }
 
 .card-title {
