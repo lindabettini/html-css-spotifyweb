@@ -39,4 +39,9 @@
   #side-bar ul li {
     text-align: left;
   }
+
+  span.nav-text {
+    display: inline-block;
+    position: static;
+  }
 }

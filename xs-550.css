@@ -69,6 +69,8 @@ img {
 }
 
 span.nav-text {
+  display: none;
+  position: absolute;
   vertical-align: baseline;
   font-weight: 700;
 }
