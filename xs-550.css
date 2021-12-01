@@ -266,6 +266,10 @@ main {
   margin: 5px auto;
 }
 
+#popular-artists img {
+  border-radius: 50%;
+}
+
 /*** FOOTER  ***/
 
 #media-player {
