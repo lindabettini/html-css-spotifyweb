@@ -10,15 +10,15 @@
   .display-wrapper {
     padding-left: 200px;
   }
-  /* 
+
   .card {
     margin: 5px;
-    width: 110px;
+    width: 170px;
     text-align: center;
   }
 
   .card-cover {
-    height: 110px;
-    width: 110px;
-  } */
+    height: 170px;
+    width: 170px;
+  }
 }
