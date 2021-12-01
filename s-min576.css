@@ -2,6 +2,7 @@
   #side-bar {
     flex-basis: 200px;
     flex-shrink: 0;
+    overflow: hidden;
   }
 
   #fixed-header {
