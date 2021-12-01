@@ -3,6 +3,10 @@
     width: 200px;
   }
 
+  #fixed-header {
+    width: calc(100% - 200px);
+  }
+
   /***** Cards Section  *****/
   .card {
     width: 165px;
