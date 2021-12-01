@@ -60,7 +60,7 @@ img {
 /* TOP-Sidebar  */
 
 .top-sidebar a {
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .top-sidebar a svg.nav-btn {
