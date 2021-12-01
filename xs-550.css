@@ -240,6 +240,11 @@ main {
   margin-bottom: 10px;
 }
 
+.cards .subtitle {
+  color: grey;
+  font-weight: 700;
+}
+
 .card {
   margin: 5px;
   width: 220px;
