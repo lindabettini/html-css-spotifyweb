@@ -35,6 +35,7 @@ img {
 
 #side-bar nav {
   width: 100%;
+  line-height: 40px;
 }
 
 #side-bar ul {
@@ -43,12 +44,14 @@ img {
 
 #side-bar ul li {
   text-align: center;
+  line-height: 30px;
 }
 
 #side-bar a {
   color: grey;
   text-decoration: none;
   display: inline-block;
+  vertical-align: baseline;
 }
 
 /* TOP-Sidebar  */
