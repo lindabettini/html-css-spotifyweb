@@ -121,21 +121,20 @@ img {
   display: flex;
   flex-direction: column;
   background-color: rgb(20, 25, 34);
+  overflow-y: auto;
 }
 
 /*** HEADER  ***/
 
 /* Top Header  */
 
-#top-header {
-  flex-basis: 70px;
-  flex-shrink: 0;
-  width: calc(100% - 50px);
-  background-color: rgba(0, 0, 0, 0.4);
-  padding-right: 5px;
+#fixed-header {
   position: fixed;
+  background-color: rgba(20, 25, 34, 0.6);
   top: 0;
-  left: 50px;
+  height: 70px;
+  width: calc(100vw - 50px);
+  padding-right: 5px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -194,7 +193,6 @@ main {
   background-color: rgb(20, 25, 34);
   padding: 10px;
   color: white;
-  overflow-y: auto;
 }
 
 /* Cards Section  */
