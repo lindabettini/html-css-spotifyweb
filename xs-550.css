@@ -20,6 +20,10 @@ img {
   display: flex;
 }
 
+.white {
+  color: white;
+}
+
 /******** SIDE BAR - NAV ********/
 
 #side-bar {
@@ -68,8 +72,8 @@ img {
 }
 
 span.nav-text {
-  display: inline-block;
   vertical-align: baseline;
+  font-weight: 700;
 }
 
 .top-sidebar #logo-large {
@@ -205,7 +209,6 @@ main {
 main h2 {
   margin: 0 5px;
   width: 100%;
-  display: block;
 }
 
 /* Cards Section  */
