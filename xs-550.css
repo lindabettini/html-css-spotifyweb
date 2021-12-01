@@ -239,13 +239,13 @@ main h2 {
 
 .card {
   margin: 5px;
-  width: 45%;
+  width: 220px;
   text-align: center;
 }
 
 .card-cover {
-  width: 100%;
-  height: auto;
+  height: 220px;
+  width: 220px;
 }
 
 .card-title {

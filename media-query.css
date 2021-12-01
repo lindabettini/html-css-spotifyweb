@@ -13,12 +13,12 @@
 
   /***** Cards Section  *****/
   .card {
-    width: 165px;
+    max-width: 160px;
   }
 
   .card-cover {
-    height: 165px;
-    width: 165px;
+    max-height: 160px;
+    max-width: 160px;
   }
 
   /***** Side-bar  *****/
@@ -58,23 +58,23 @@
 /***** MEDIUM 768px  *****/
 @media screen and (min-width: 768px) {
   .card {
-    width: 120px;
+    max-width: 160px;
   }
 
   .card-cover {
-    height: 120px;
-    width: 120px;
+    max-height: 160px;
+    max-width: 160px;
   }
 }
 
 /***** LARGE 992px *****/
 @media screen and (min-width: 992px) {
   .card {
-    width: 150px;
+    max-width: 200px;
   }
 
   .card-cover {
-    height: 150px;
-    width: 150px;
+    max-height: 200px;
+    max-width: 200px;
   }
 }
