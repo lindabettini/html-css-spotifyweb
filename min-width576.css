@@ -196,6 +196,10 @@ main {
   color: white;
 }
 
+main h1 {
+  margin: 0 15px;
+}
+
 /* Cards Section  */
 
 #cards {
