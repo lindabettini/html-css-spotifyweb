@@ -51,7 +51,6 @@ img {
   color: grey;
   text-decoration: none;
   display: inline-block;
-  vertical-align: baseline;
 }
 
 /* TOP-Sidebar  */
@@ -64,6 +63,13 @@ img {
   width: 30px;
   height: auto;
   padding: 0;
+  vertical-align: baseline;
+  margin-bottom: -3px;
+}
+
+span.nav-text {
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 .top-sidebar #logo-large {
