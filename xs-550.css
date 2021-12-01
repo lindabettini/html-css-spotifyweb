@@ -78,8 +78,20 @@ span.nav-text {
   position: absolute;
 }
 
-.top-sidebar .play-list {
+/* Playlist List  */
+
+.top-sidebar #playlist {
   margin-top: 10px;
+  font-weight: 700;
+}
+
+button.add-btn {
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border: none;
+  margin: 10px 5px 10px 0;
+  cursor: pointer;
 }
 
 /* BOTTOM-Sidebar  */
