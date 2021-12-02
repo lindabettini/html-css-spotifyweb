@@ -77,7 +77,7 @@ img {
   color: white;
 }
 
-#side-bar .hover-bright:hover .nav-btn {
+#side-bar .hover-bright:hover svg {
   filter: brightness(200%);
 }
 
