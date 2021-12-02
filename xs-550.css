@@ -230,13 +230,13 @@ button.pill {
   flex-wrap: wrap;
   margin-top: 5px;
   padding-right: 5px;
-  font-size: 14px;
 }
 
 nav.item-genre ul {
   text-align: center;
   width: 100%;
   list-style-type: none;
+  font-size: 14px;
 }
 
 nav.item-genre ul li {
