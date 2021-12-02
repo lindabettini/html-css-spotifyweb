@@ -94,4 +94,15 @@
     max-height: 200px;
     max-width: 200px;
   }
+  /* Player  */
+  .line-prog-bar {
+    flex-basis: 300px;
+    flex-shrink: 0;
+    background-color: grey;
+  }
+
+  /* Controls  */
+  #controls .vol-bar {
+    width: 110px;
+  }
 }
