@@ -66,15 +66,21 @@
     max-height: 160px;
     max-width: 160px;
   }
+
   /* Player  */
   .play button {
     padding: 0 5px;
   }
 
   .line-prog-bar {
-    flex-basis: 150px;
+    flex-basis: 160px;
     flex-shrink: 0;
     background-color: grey;
+  }
+
+  /* Controls  */
+  #controls .vol-bar {
+    width: 90px;
   }
 }
 
