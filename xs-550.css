@@ -20,6 +20,10 @@ img {
   display: flex;
 }
 
+.b700 {
+  font-weight: 700;
+}
+
 /* Utils  */
 
 .clear {
@@ -134,9 +138,8 @@ li#profile {
   line-height: 30px;
 }
 
-.user-name {
+span.user-name {
   vertical-align: bottom;
-  font-weight: 700;
   padding-left: 5px;
 }
 
