@@ -72,6 +72,15 @@ img {
   justify-content: space-between;
 }
 
+#side-bar ul li a:hover,
+#side-bar ul li:hover a > * {
+  color: white;
+}
+
+#side-bar .hover-bright:hover .nav-btn {
+  filter: brightness(200%);
+}
+
 /* NAV - Generics rules  */
 
 #side-bar nav {
