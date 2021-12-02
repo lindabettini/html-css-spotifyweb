@@ -11,16 +11,6 @@
     width: calc(100% - 200px);
   }
 
-  /***** Cards Section  *****/
-  .card {
-    max-width: 160px;
-  }
-
-  .card-cover {
-    max-height: 160px;
-    max-width: 160px;
-  }
-
   /***** Side-bar  *****/
 
   /* Icons */
@@ -58,13 +48,8 @@
 /***** MEDIUM 768px  *****/
 @media screen and (min-width: 768px) {
   /* Cards  */
-  .card {
-    max-width: 160px;
-  }
-
-  .card-cover {
-    max-height: 160px;
-    max-width: 160px;
+  .gallery .card {
+    flex-basis: 25%;
   }
 
   /* Player  */
@@ -86,13 +71,9 @@
 
 /***** LARGE 992px *****/
 @media screen and (min-width: 992px) {
-  .card {
-    max-width: 200px;
-  }
-
-  .card-cover {
-    max-height: 200px;
-    max-width: 200px;
+  /* Cards  */
+  .gallery .card {
+    flex-basis: 15%;
   }
   /* Player  */
   .line-prog-bar {
