@@ -318,6 +318,34 @@ section .subtitle {
 .gallery .card {
   flex-basis: 50%;
   padding: 10px;
+  cursor: pointer;
+}
+
+.card-cover {
+  position: relative;
+}
+
+.hover-play {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.349);
+  display: none;
+}
+
+.hover-play .fa-play-circle {
+  font-size: 40px;
+  display: inline-block;
+}
+
+.card-cover:hover .hover-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-title {
@@ -331,6 +359,10 @@ section .subtitle {
 }
 
 #popular-artists img {
+  border-radius: 50%;
+}
+
+#popular-artists .hover-play {
   border-radius: 50%;
 }
 
