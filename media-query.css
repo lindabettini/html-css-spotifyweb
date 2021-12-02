@@ -53,11 +53,15 @@
     display: inline-block;
   }
 
+  #add-playlist {
+    margin: 40px 0 0 10px;
+  }
+
   .top-sidebar ul#playlist {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: calc(100vh - 420px);
+    height: calc(100vh - 500px);
     overflow-y: auto;
   }
 
