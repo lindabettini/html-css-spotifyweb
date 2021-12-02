@@ -22,8 +22,22 @@ img {
 
 /* Utils  */
 
+.clear {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.float {
+  float: left;
+}
+
 .white {
   color: white;
+}
+
+.grey {
+  color: grey;
 }
 
 /******** SIDE BAR - NAV ********/
@@ -110,16 +124,6 @@ button.add-btn {
   padding: 0;
   height: 20px;
   width: 20px;
-  position: relative;
-}
-
-.bottom-sidebar a svg.download {
-  height: auto;
-  width: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .bottom-sidebar a.prof-btn {
