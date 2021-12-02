@@ -123,14 +123,11 @@ button.add-btn {
 .bottom-sidebar a.download-btn {
   padding: 0;
   display: inline-block;
-  height: 20px;
-  width: 20px;
 }
 
 .bottom-sidebar svg.download {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
+  width: 20px;
+  vertical-align: middle;
 }
 
 .bottom-sidebar a.prof-btn {
