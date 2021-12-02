@@ -122,6 +122,7 @@ button.add-btn {
 #download-btn {
   padding-bottom: 5px;
   border-bottom: 1px solid grey;
+  line-height: 30px;
 }
 
 .bottom-sidebar svg.download {
@@ -129,8 +130,20 @@ button.add-btn {
   vertical-align: middle;
 }
 
-.bottom-sidebar a.prof-btn {
+li#profile {
+  line-height: 30px;
+}
+
+.user-name {
+  vertical-align: bottom;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.bottom-sidebar .prof-btn {
+  vertical-align: middle;
   margin-top: 5px;
+  display: inline-block;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -139,7 +152,7 @@ button.add-btn {
   overflow: hidden;
 }
 
-.bottom-sidebar a svg.profile {
+.bottom-sidebar .prof-svg {
   height: 25px;
   width: auto;
   position: absolute;
