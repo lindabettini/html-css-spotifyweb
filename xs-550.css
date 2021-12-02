@@ -231,6 +231,10 @@ button.pill {
   font-size: 12px;
 }
 
+button.pill:hover {
+  transform: scale(1.15);
+}
+
 /* Bottom Header  */
 
 #main-header {
