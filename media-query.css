@@ -1,6 +1,21 @@
 /***** SMALL 576px  *****/
 
 @media screen and (min-width: 576px) {
+  /* DISPLAY UTILITIES  */
+  .d-sm-inline {
+    display: inline;
+  }
+
+  .d-sm-inline-blk {
+    display: inline-block;
+  }
+
+  .d-sm-blk {
+    display: inline-block;
+  }
+
+  /* ********************* */
+
   #side-bar {
     flex-basis: 200px;
     flex-shrink: 0;
@@ -36,12 +51,18 @@
 
   span.nav-text {
     display: inline-block;
-    position: static;
   }
 
-  .top-sidebar #playlist {
-    display: inline-block;
-    position: static;
+  .top-sidebar ul#playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: calc(100vh - 420px);
+    overflow-y: auto;
+  }
+
+  ul#playlist li {
+    flex-basis: 20px;
   }
 }
 
